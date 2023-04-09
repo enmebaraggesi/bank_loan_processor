@@ -1,4 +1,4 @@
-package org.example;
+package org.bank.loans;
 
 import java.time.LocalTime;
 
@@ -22,7 +22,6 @@ public class LoanApplicationService implements LoanAppInterface{
             if (amount < MAX_AMOUNT) {
                 return true;
             }
-
             return false;
         }
         return true;
