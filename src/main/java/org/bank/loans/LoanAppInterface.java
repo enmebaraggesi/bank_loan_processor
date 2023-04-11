@@ -11,8 +11,8 @@ public interface LoanAppInterface {
     final int EXTENSION = 7;
     final double COST_RATE = 0.1;
 
-    boolean apply_for_loan(long term, double amount);
-    boolean request_time_check(LocalTime time, double amount);
-    double cost_of_loan(double amount);
-    long extend_due_date(long term);
+    boolean applyForLoan(long term, double amount);
+    boolean requestTimeCheck(LocalTime time, double amount);
+    double costOfLoan(double amount);
+    long extendDueDate(long term);
 }
